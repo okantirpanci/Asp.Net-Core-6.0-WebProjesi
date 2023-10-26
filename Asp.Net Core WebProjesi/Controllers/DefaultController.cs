@@ -8,5 +8,15 @@ namespace Asp.Net_Core_WebProjesi.Controllers
 		{
 			return View();
 		}
-	}
+
+        public PartialViewResult HeaderPartial()
+		{
+			return PartialView();
+		}
+
+		public PartialViewResult NavbarPartial()
+		{
+			return PartialView();
+		}
+    }
 }
