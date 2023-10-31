@@ -15,5 +15,6 @@ namespace EntityLayer.Concrete
         public string Description { get; set; }
         public string Mail { get; set; }
         public string Phone { get; set; }
+        public string Linkedln { get; set; }
     }
 }
