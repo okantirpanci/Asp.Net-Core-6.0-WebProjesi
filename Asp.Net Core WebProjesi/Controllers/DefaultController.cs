@@ -18,5 +18,15 @@ namespace Asp.Net_Core_WebProjesi.Controllers
 		{
 			return PartialView();
 		}
+
+		public PartialViewResult FooterPartial()
+		{
+			return PartialView();
+		}
+
+		public PartialViewResult ScriptPartial()
+		{
+			return PartialView();
+		}
     }
 }
