@@ -36,7 +36,7 @@
                     </div>
                     <div class="row">
 
-                        @await Component.InvokeAsync("SendMessage")
+                        @await Html.PartialAsync("SendMessagePartial")
                        
                         @await Component.InvokeAsync("ContactList")
 
